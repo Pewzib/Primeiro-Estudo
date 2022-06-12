@@ -46,6 +46,6 @@ elementoResposta.innerHTML = pergunta + respostas [numeroAleatorio]
  setTimeout(function() {
    elementoResposta.style.opacity = 0;
    buttonPerguntar.removeAttribute('disabled')
- }, 3000)
+ }, 5000)
 
 }
